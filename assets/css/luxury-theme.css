@@ -1,0 +1,382 @@
+/* Luxury Theme Color Overrides */
+body {
+    background: #f5f5f5;
+    color: #1a1a1a;
+}
+
+a {
+    color: #8b7355;
+}
+
+.desktop a:hover {
+    color: #c0a080;
+}
+
+.button {
+    background: #8b7355;
+    color: #fff;
+}
+
+.button:hover {
+    background: #c0a080;
+}
+
+.button__text {
+    background: #8b7355;
+}
+
+.close-button {
+    background: #8b7355;
+}
+
+.close-button:hover {
+    background: #c0a080;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+}
+
+.header-nav__link {
+    color: #1a1a1a;
+}
+
+.header-nav__link:hover,
+.header-nav__item.active .header-nav__link {
+    color: #8b7355;
+}
+
+.footer-nav__link {
+    color: #1a1a1a;
+}
+
+.footer-nav__link:hover {
+    color: #8b7355;
+}
+
+.socials__link {
+    color: #1a1a1a;
+}
+
+.socials__link:hover {
+    color: #8b7355;
+}
+
+.text-input, .textarea {
+    border-color: rgba(139, 115, 85, 0.2);
+}
+
+.text-input:focus, .textarea:focus {
+    border-color: #8b7355;
+}
+
+.subscription__input {
+    border-color: rgba(139, 115, 85, 0.2);
+}
+
+.subscription__input:focus {
+    border-color: #8b7355;
+}
+
+/* SVG icon colors */
+[class*="__red"] {
+    filter: hue-rotate(25deg) saturate(0.8);
+}
+
+/* Buttons and interactive elements */
+.heart-button:after,
+.favorite-button.active,
+.reply-button:after,
+.user-nav__icon:after {
+    filter: hue-rotate(25deg) saturate(0.8);
+}
+
+/* Background elements */
+.header.scrolled {
+    background: rgba(245, 245, 245, 0.98);
+    box-shadow: 0 2px 10px rgba(139, 115, 85, 0.1);
+}
+
+.hide-nav__list {
+    background: #f5f5f5;
+    box-shadow: 0 2px 10px rgba(139, 115, 85, 0.1);
+}
+
+.footer:before {
+    background: #e5e0d8;
+}
+
+/* Border colors */
+.footer__bottom {
+    border-top: 1px solid rgba(139, 115, 85, 0.4);
+}
+
+.footer-line {
+    border-bottom: 1px solid rgba(139, 115, 85, 0.2);
+}
+
+/* Price and special text */
+.short-item__price,
+.product-price {
+    color: #8b7355;
+}
+
+.item-tag_green {
+    background: #8b7355;
+    color: #fff;
+}
+
+.item-tag_red {
+    background: #c0a080;
+    color: #fff;
+}
+
+/* Logo positioning */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+}
+
+.logo__image {
+    width: 120px;
+    height: auto;
+    margin: 0;
+    object-fit: contain;
+}
+
+/* Header navigation alignment */
+.header__cols {
+    align-items: center;
+}
+
+.header-nav {
+    padding: 0 56px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-nav__link {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.header-nav__item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* Adjust header height and alignment */
+.header__main {
+    padding: 20px 60px;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* Mobile button alignment */
+.mob-button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* User navigation alignment */
+.user-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.user-nav__item {
+    display: flex;
+    align-items: center;
+}
+
+/* Make dropdown links uppercase */
+.hide-nav__link {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* Footer logo specific */
+.footer-logo.logo {
+    margin-bottom: 20px;
+}
+
+/* Collection titles and main headings */
+.collection__title,
+.main-slider__title,
+.season-sale__title {
+    color: var(--primary-color);
+    text-shadow: none;
+}
+
+.collection__category {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.main-slider__subtitle,
+.collection__subtitle {
+    color: var(--accent-color);
+}
+
+.category-subtitle {
+    color: var(--secondary-color);
+}
+
+.category-subtitle b {
+    color: var(--accent-color);
+}
+
+.main-block__title {
+    color: var(--primary-color);
+}
+
+.collection-title {
+    color: var(--primary-color);
+}
+
+.collection-title__count {
+    color: var(--secondary-color);
+}
+
+.collection-title__text {
+    color: var(--accent-color);
+}
+
+/* Season sale section */
+.season-sale__title span {
+    color: var(--secondary-color);
+}
+
+.season-sale__text {
+    color: var(--text-color);
+}
+
+/* Base colors */
+:root {
+    --primary-color: #0A2647; /* Navy blue */
+    --secondary-color: #8b7355; /* Rich gold */
+    --accent-color: #c0a080; /* Warm gold */
+    --background-color: #f5f5f5; /* Light gray background */
+    --text-color: #333333; /* Dark gray for text */
+    --border-color: rgba(139, 115, 85, 0.2); /* Gold with transparency */
+    --hover-color: #a67c52; /* Darker gold for hover states */
+}
+
+/* Collection titles and main headings */
+.collection__title,
+.main-slider__title,
+.season-sale__title {
+    color: var(--primary-color);
+    text-shadow: none;
+}
+
+.main-block__title,
+.collection-title,
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+/* Navigation */
+.header-nav__link {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.mob-nav__link {
+    color: var(--primary-color);
+}
+
+/* Footer */
+.footer-title,
+.socials__title,
+.socials__text {
+    color: var(--primary-color);
+}
+
+/* Product titles */
+.short-item__title a,
+.short-post__title a {
+    color: var(--primary-color);
+}
+
+/* Payment methods section */
+.payments {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.payments__text {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.payments__list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.payments__item {
+    display: flex;
+    align-items: center;
+}
+
+.payments__image {
+    width: auto;
+    height: 24px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    filter: grayscale(0%);
+    margin: 0;
+}
+
+.payments__image:hover {
+    opacity: 1;
+}
+
+/* Footer bottom section */
+.footer__bottom {
+    padding: 24px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer__cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrights {
+    color: var(--text-color);
+    font-size: 14px;
+} 
